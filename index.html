@@ -1,0 +1,331 @@
+h<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative; 
+  }
+  #section1 {padding:30px;height:700px;color: white; background-color:black;}
+  #section2 {padding:30px;height:700px;color:white; background-color:black;}
+  #section3 {padding:30px;height:700px;color: #fff; background-color: black;}
+  #section41 {padding:30px;height:700px;color: #fff; background-color: black;}
+  #section42 {padding:30px;height:700px;color: #fff; background-color: black;;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" background="black">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ChickenVhicken</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Chicken Biryani</a></li>
+          <li><a href="#section2">Chicken Chettinad</a></li>
+          <li><a href="#section3">Kerala Chicken Roast</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Chicken Snacks<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Masaledar Chicken Lollipop</a></li>
+              <li><a href="#section42">Spicy Chicken 65</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol> 
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/bw.jpg" style="width:100%; height: 600px;">
+      <h4 style="color:white;">Chicken Wing</h4>
+    </div>
+
+    <div class="item">
+      <img src="img/lw.jpg" style="width:100%;height: 600px;">
+      <h4 style="color:white;">Chicken Wing</h4>
+    </div>
+  
+    <div class="item">
+      <img src="img/chickenwing.jpg" style="width:100%;height: 600px;">
+      <h4 style="color:white;">Chicken Wing</h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div id="section1" class="container-fluid">
+  <h2 style="color:orange;">Murgh Biryani Recipe</h2>
+  <div class="row">
+      <div class="col-sm-8">
+            <p>Chef: Ved Prakash, Daniell's Tavern, The Imperial Hotel<br>
+            Recipe Servings: 2<br>
+            Prep Time: 15 mins<br>
+            Cook Time: 40 mins<br>
+            Total Cook Time: 55 mins<br>
+            Difficulty Level: Medium<br>
+           </p>
+            <h4 style="color:greenyellow;">Ingredients:</h4>
+            <p>300 gms chicken leg B/L
+            5 gram green chilli, 1 small Elaichi, 1 Elaichi, 1 Cinnamon sticks, 1 gms mace, 1 Bay leaf<br>
+            1 Javitri, 1 gram cloves, 1 kg basmati rice, to taste salt, 3 gram shahi jeera, 50 ml desi ghee, 20 gms ginger, <br>
+            20 gms garlic, 0.1 gram saffron, 100 gms onion, 50 gms butter, 10 gms mint, 10 gms garam masala, 30 gms red chilli powder<br>
+            Key Ingredients: chicken leg B/L, green chilli, Elaichi, Elaichi, Cinnamon sticks, mace,<br>
+            Bay leaf, Javitri, cloves, basmati rice, salt, shahi jeera, desi ghee, ginger, garlic, saffron,<br>
+             onion, butter, mint, garam masala, red chilli powder</p>
+             <h4 style="color:greenyellow;">How to Make:</h4>
+            <p>1.Wash chicken leg B/L and pet dry. marinate with ginger, garlic paste, curd and garam masala. Keep aside.<br>
+            2.Soak basmati rice for 20 minutes.<br>
+            3.Take thick bottom pan, put all whole spices, slices of onion, cook till brown, add marinated chicken and cook for 5 minutes.<br>
+            4.Boil rice in salt and mint flavoured water.<br>
+            5.Add chicken in pre cooked rice.<br>
+            6.Cover with lid and cook till the steam comes out. Check seasoning.Serve hot with raita.</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/biryani.png" height="300px"; width="300px";>
+        </div>
+  </div>
+</div>
+<div id="section2" class="container-fluid">         
+  <h2 style="color:orange;">Chicken Chettinad Recipe</h2>
+  <div class="row">
+      <div class="col-sm-8">
+            <p>Recipe By: Kishore D Reddy<br>
+              Recipe Servings: 5<br>
+              Prep Time: 10 mins<br>
+              Cook Time: 1 hr 10 mins<br>
+              Total Cook Time: 1 hr 20 mins<br>
+              Difficulty Level: Easy<br>
+           </p>
+            <h4 style="color:greenyellow;">Ingrediens Of Chicken Chettinad</h4>
+            <p>500 gms chicken, 75 ml oil, 150 gms onions, 100 gms tomatoes, 2 gms cinnamon sticks,<br>
+              2 gms cloves, 2 gms cardamoms, 5 gms cumin, 2 gms curry leaves, 10 gms turmeric powder, Salt, 25 gms coriander leaves,<br>
+              For paste: 100 gms onions, 50 gms ginger, 50 gms garlic, 50 gram fennel seed, 20 gms cumin seeds,<br>
+              25 gms peppercorns, 10 gms red chillies, 100 gms coconut</p>
+              <h4 style="color:greenyellow;">How to Make Chicken Chettinad</h4>
+            <p>
+              1.Grind the ingredients for the paste.<br>
+              2.Clean and cut the chicken into 16 pieces. Marinate the chicken with the paste.<br>
+              3.Chop the tomatoes, coriander leaves and the onions.<br>
+              4.Heat oil and add the cinnamon, cardamom, cloves and cumin, saute.<br>
+              5.Add the chopped onions and the curry leaves. Saute until the onions are golden.<br>
+              6.Add the tomatoes and saute for 5 minutes.<br>
+              7.Add the marinated chicken and turmeric powder. Saute for 10 minutes, sprinkling water at intervals.<br>
+              8.Add enough salt, cover with a lid and cook until done. Add more chilli or pepper if required.<br>
+              9.Serve garnished with coriander leaves.</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/ChickenChettinad.png" height="300px"; width="300px";>
+        </div>
+  </div>
+</div>
+<div id="section3" class="container-fluid">
+  <h2 style="color:orange;">Kerala Chicken Roast Recipe</h2>
+  <div class="row">
+      <div class="col-sm-8">
+            <p>Recipe By: Food Blogger Divya Burman<br>
+              Recipe Servings: 4<br>
+              Prep Time: 10 mins<br>
+              Cook Time: 1 hr 10 mins<br>
+              Total Cook Time: 1 hr 20 mins<br>
+              Difficulty Level: Medium<br>
+           </p>
+            <h4 style="color:greenyellow;">Ingredients Of Kerala Chicken Roast:</h4>
+            <p>
+              1 Kg chicken
+              For the marination:
+              1/4 tsp turmeric powder,
+              1/4 tsp chilli powder,
+              1/4 tsp coriander powder,<br>
+              1 tsp vinegar/lemon juice,
+              5 Garlic cloves,
+              3-5 Green chillies,<br>
+              to taste salt,
+              For roasting:
+              3 medium onions,<br>
+              1 large tomato (remove skin & make puree), blanched,
+              2 Green chillies (slit),<br>
+              3 sprigs curry leaves,
+              1/4 tsp garam masala powder,
+              1/4 tsp pepper powder,<br>
+              1 Lemon (juiced),
+              Oil<br>
+             onion, butter, mint, garam masala, red chilli powder</p>
+             <h4 style="color:greenyellow;">How to Make:</h4>
+            <p>1.Clean and cut the chicken into medium sized pieces.<br>
+              2.Make a paste of all the ingredients under marination.<br>
+              3.Marinate the chicken pieces with this paste and keep aside for an hour.<br>
+              4.Cut onions into very thin slices and fry in hot oil. Drain them and keep aside.<br>
+              5.Fry the chicken pieces in the same oil until almost done. Keep the pan covered so that the chicken does not get browned,<br>
+               but is cooked inside. Drain them and keep aside.<br>
+              6.Heat 2 tbsp of oil in another pan (You can use the same oil in which we fried the chicken pieces. <br>
+              This will enhance the flavour). Add slit green chillies and curry leaves. Saute for 1 minute.<br>
+              7.Add the tomato paste to this and saute for 1 minute.<br>
+              8.Now add the prepared chicken & roast until it is dry.<br>
+              9.Make sure that all the chicken pieces are well coated with the tomato paste.<br>
+              10.Sprinkle garam masala & pepper powder and mix well.<br>
+              11.Add lemon juice and mix well. Check for salt. Add a little if needed.<br>
+              12.Now add the fried onions and mix well.<br>
+              13.Tasty Kerala Chicken roast is ready..</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/kc.webp" height="300px"; width="400px";>.<br>
+        </div>
+  </div>
+</div>
+<div id="section41" class="container-fluid">
+  <h2 style="color:orange;">Masaledar Chicken Lollipop</h2>
+  <div class="row">
+    <div class="col-sm-8">
+          <p>Recipe By: NDTV Food<br>
+            Recipe Servings: 4<br>
+            Prep Time: 10 mins<br>
+            Cook Time: 40 mins<br>
+            Total Cook Time: 50 mins<br>
+            Difficulty Level: Easy<br>
+         </p>
+          <h4 style="color:greenyellow;">Ingredients Of Masaledar Chicken Lollipop</h4>
+          <p>
+              For the masala:<br>
+              8 Guntur chillies, 
+              6-7 Boriya mirch, 
+              1 inch ginger knob, finely chopped, 
+              5-6 Garlic cloves, 
+              2 Green chillies, 
+              2 tsp cumin, 
+              1 tsp fennel, <br>
+              5-6 peppercorns, 
+              1 Cinnamon stick, 
+              A pinch of white pepper, 
+              4 Cloves,
+              15 Curry leaves, 
+              1 tsp coriander seeds, 
+              Handful of coriander leaves,
+              1 tsp turmeric, 
+              A pinch of sea salt,
+              1-2 tsp oil, <br>
+              For the chicken:
+              8-10 Chicken lollipops (with the skin), 
+              1 tsp turmeric, 
+              to taste salt, 
+              1-2 tsp red chilli powder,
+              2 tsp oil + oil to sear the lollipops, 
+              A pinch of sugar, <br>
+              For the base:
+              2-3 tsp oil, 
+              2 tsp mustard seeds, 
+              7-8 Curry leaves, 
+              1/2 onion, julienne,
+              1 1/2 tbsp masala,
+              3 tsp tamarind paste,
+              1 tsp jaggery powder,
+              1/2 Lemon (juiced), 
+              for garnishing coriander leaves</p>
+           <h4 style="color:greenyellow;">How to Make Masaledar Chicken Lollipop</h4>
+          <p>
+            Prepare masala:<br>
+            1.Dry roast all the ingredients together in a pan for a minute.<br>
+            2.In a mortar and pestle pound together all the ingredients.<br>
+            3.Transfer this in the blender and make a fine paste.<br>
+            Prepare chicken:<br>
+            1.Marinate the chicken lollipops with turmeric, salt, red chilli powder and 2 tsp oil.<br>
+            2.In a saucepan add a little oil and sear the lollipops from all sides till they are half cooked.<br>
+            3.Add sugar and cook some more.<br>
+            Prepare the base:<br>
+            1.Add refined oil in the pan followed with mustard seeds, few curry leaves and onion. Bhuno them well together.<br>
+            2.Add the masala and chicken lollipop into the base and saute them well together.<br>
+            3.Add tamarind extract, jaggery and water. Mix them well and cover the top.<br>
+            4.Add little lemon. Toss well and cook till chicken is well done.<br>
+            5.Garnish with coriander leaves.<br>
+            6.Serve hot.</p>
+      </div>
+      <div class="col-sm-4">
+        <br>
+        <img src="img/LP.jpg" height="300px"; width="400px";>.<br>
+      </div>
+    </div>
+</div>
+<div id="section42" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2 style="color:orange;">Spicy Chicken 65</h2>
+          <p>Recipe By: NDTV Food<br>
+            Recipe Servings: 2<br>
+            Prep Time: 15 mins<br>
+            Cook Time: 40 mins<br>
+            Total Cook Time: 55 mins<br>
+            Difficulty Level: Medium<br>
+         </p>
+          <h4 style="color:greenyellow;">Ingredients Of Spicy Chicken 65:</h4>
+          <p>
+            4 Pieces chicken breasts (cut into strips), 
+            2 tsp ginger-garlic paste, 
+            2 tsp turmeric powder, 
+            2 tsp red chilli powder, <br>
+            2 tsp coriander powder, 
+            1 1/2 tsp cumin powder, 
+            1 cups oil,<br>
+            2 tbsp flour, 
+            1 tbsp corn flour, 
+            1 Egg, <br>
+            500 ml soda, 
+            4 Red chillies, 
+            1 tsp mustard seeds, <br>
+            6-7 Curry leaves, 
+            to taste salt </p>
+           <h4 style="color:greenyellow;">How to Make Spicy Chicken 65</h4>
+          <p>
+            Marination:<br>
+            1.Take finely cut strips of chicken breast in a bowl.Spicy Chicken 65<br>
+            2.Add ginger-garlic paste, salt, turmeric powder, red-chilli powder, coriander powder, cumin powder and oil for binding.Spicy Chicken 65<br>
+            3.Mix thoroughly so all the ingredients are deeply binded with the chicken. Refrigerate the mixture for 15-20 minutes.Spicy Chicken 65<br>
+            Prepare the batter:<br>
+            1.Add one egg, flour and corn flour.Spicy Chicken 65<br>
+            2.Mix it well to make a paste and then add soda. Whisk well and keep it in the refrigerator for 15-20 minutes.Spicy Chicken 65<br>
+            3.After the refrigeration of the marinated chicken and the batter, take them out and pour the batter on the chicken strips one by one.<br>
+            Spicy Chicken 65<br>
+            4.Deep fry the strips.Spicy Chicken 65<br>
+            Tempering:<br>
+            1.Add some oil in a pan. Put mustard seeds, pepper corns, curry leaves and red chilli into it.Spicy Chicken 65<br>
+            2.Mix them well and pour it on the deep fried chicken strips.Spicy Chicken 65<br>
+            3.Serve hot.</p>
+      </div>
+      <div class="col-sm-4">
+        <br>
+        <img src="img/c65.webp" height="300px"; width="400px";><br>
+      </div>
+</div>
+</div>
+</body>
+</html>
